@@ -37,5 +37,17 @@ public class EstudosJava {
         idade = 21;
 
         System.out.println(idade);
+
+        //teste condicionado
+
+        int notaAluno = 6;
+
+        if (notaAluno > 6) {
+            System.out.println("Parabéns, você passou!!");
+        } else if (notaAluno == 6) {
+            System.out.println("Refaça a Prova!");
+        } else {
+            System.out.println("Reprovado!");
+        }
     }
 }
