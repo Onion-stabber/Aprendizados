@@ -49,5 +49,21 @@ public class EstudosJava {
         } else {
             System.out.println("Reprovado!");
         }
+
+        //operadores relacionais
+        byte numero1 = 1;
+        byte numero2 = 2;
+        boolean sOuN = numero1 == numero2;
+
+        System.out.println(sOuN);
+
+        sOuN = numero1 != numero2;
+
+        System.out.println(sOuN);
+
+        sOuN = numero1 > numero2;
+
+        System.out.println(sOuN);
+        
     }
 }
