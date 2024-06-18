@@ -7,15 +7,15 @@ public class EstudosJava {
 
         //inteiros
 
-        byte numInteiro1 = 127; 
-        short numInteiro2 = -32600;
-        int numInteiro3 = 123456;
-        long numInteiro4 = 1234567;
+        byte numInteiro1 = 127; //variávél byte contém 4 bits 
+        short numInteiro2 = -32600; //variável short contém 8 bits
+        int numInteiro3 = 123456; // variável int contém 16 bits
+        long numInteiro4 = 1234567; // variável long contém 32 bits
 
         //reais
 
-        float numReal1 = 13.98f;
-        double numReal2 = 1340985.20356750;
+        float numReal1 = 13.98f; //variável Flo at contém 32 bits
+        double numReal2 = 1340985.20356750; //variável double contém 64 bits
 
         //caracteres
 
@@ -64,6 +64,20 @@ public class EstudosJava {
         sOuN = numero1 > numero2;
 
         System.out.println(sOuN);
+
+        //operadores lógicos
         
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        if (condicao1 && condicao2) {
+            System.out.println("as duas condições são verdadeiras");
+        } else {
+            System.out.println("as condições não são verdadeiras");
+        } 
+
+        if (condicao1 || condicao2) {
+            System.out.println("uma das condições são verdadeiras");
+        }
     }
 }
